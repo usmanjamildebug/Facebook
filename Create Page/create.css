@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Calibri';
+}
+
+body{
+    background: rgba(0, 0, 255, 0.082);
+}
+.header{
+    text-align: center;
+    padding-top: 30px;
+    height: 100px;
+}
+.header h1{
+    font-size: 60px;
+    color: rgba(0, 89, 255, 0.904);
+}
+.home{
+    border: 1px solid transparent;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(128, 128, 128, 0.274);
+    height: 500px;
+    width: 350px;
+    margin-left: 500px;
+    background: white;
+}
+.heading h3{
+    color: black;
+    font-size: 23px;
+    font-weight: 600;
+}
+.heading p{
+    color: rgb(70, 70, 70);
+    font-weight: 500;
+}
+.home hr{
+    margin-top: 10px;
+}
+.input{
+    margin-top: 8px;
+    height: 30px;
+    text-align: center;
+}
+.input input{
+    height: 30px;
+    width: 165px;
+    padding-left: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.birth{
+    margin-top: 8px;
+    padding-left: 10px;
+}
+.birth p{
+    color: rgb(66, 66, 66);
+    margin-bottom: 5px;
+}
+.birth input{
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.gender{
+    margin-top: 8px;
+    padding-left: 10px;
+}
+.gender p{
+    color: rgb(66, 66, 66);
+    margin-bottom: 5px;
+}
+.info{
+    display: flex;
+    padding-left: 10px;
+    gap: 2em;
+}
+.Female{
+    padding: 4px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.Male{
+    padding: 4px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.custom{
+    padding: 4px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.data{
+    padding-left: 10px;
+}
+.data input{
+    margin-top: 8px;
+    height: 40px;
+    width: 325px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+.para1{
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 10px;
+    color: rgb(66, 66, 66);
+    margin-bottom: 10px;
+}
+.para2{
+    padding-left: 10px;
+    font-size: 10px;
+    color: rgb(66, 66, 66);
+    margin-bottom: 10px;
+}
+.sign-up{
+ text-align: center;
+ padding-top: 10px;
+}
+.sign-up button{
+    color: white;
+    background: rgba(0, 146, 0, 0.897);
+    border: 1px solid transparent;
+    height: 28px;
+    width: 160px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.already{
+    text-align: center;
+    margin-top: 13px;
+}
+.already a{
+    text-decoration: none;
+    color: rgb(0, 132, 255);
+    font-weight: 600;
+}
